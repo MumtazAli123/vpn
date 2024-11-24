@@ -1,0 +1,87 @@
+name: wallet
+version: 1.1.1+13
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies: 
+  get: any
+  path: any
+#  http: any
+  share_plus: any
+  path_provider: any
+  firebase_auth: any
+  cloud_firestore: any
+  firebase_database: any
+  firebase_messaging: any
+  firebase_storage: any
+  firebase_core: any
+  get_storage: any
+  provider: any
+  google_fonts: any
+  shared_preferences: any
+  timeago: any
+  quickalert: 1.1.0
+  image_picker: ^1.1.2
+  fancy_password_field: ^2.0.7
+  country_picker: ^2.0.26
+  get_time_ago: ^2.1.1
+  logger: ^2.3.0
+  fancy_bottom_navigation_plus: 1.0.3
+  awesome_dialog: ^3.2.1
+#  mobile_scanner: any
+  qr_flutter: ^4.1.0
+  intl: any
+  flutter_barcode_scanner: any
+  smooth_star_rating_nsafe: any
+  overlay_support: any
+  date_picker_plus: any
+  screenshot: any
+  image_gallery_saver: any
+  dio: any
+  permission_handler: any
+  url_launcher: any
+  audioplayers: any
+  flutter_slidable: any
+  country_state_city_picker: any
+  csc_picker: any
+  email_auth: any
+  getwidget: any
+  like_button: any
+  file_picker: any
+  flutter_animate: any
+  flip_card: any
+  rename: any
+  lottie: any
+  fl_chart: any
+  eva_icons_flutter: any
+  gender_picker: 1.1.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.1
+  flutter_test: 
+    sdk: flutter
+
+flutter_icons: 
+  image_path: assets/icons/icon.png
+  android: true
+  ios: true
+  remove_alpha_ios: true
+
+flutter: 
+  assets: 
+    - assets/
+    - assets/images/
+    - assets/lottie/
+    - assets/audio/
+    - assets/slider/
+    - assets/icons/
+    - assets/slider/2.jpg
+    - assets/wallet.jpeg
+    - assets/audio/SEU4_Ride_08.wav
+  uses-material-design: true
+
