@@ -28,6 +28,8 @@ class BalanceCard extends StatefulWidget {
 }
 
 class _BalanceCardState extends State<BalanceCard> {
+
+
   final user = FirebaseAuth.instance.currentUser;
   final date = DateTime.now();
   final DateTime now = DateTime.now();
